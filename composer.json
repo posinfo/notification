@@ -1,0 +1,21 @@
+{
+    "name": "posinfo/notification",
+    "description": "This simple library is for send e-mail notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Oliveira",
+            "email": "paulooliveiradesouza@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "Notification\\":"_app"
+        }
+    }
+}
